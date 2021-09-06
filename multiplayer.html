@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jogo da Velha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Matheus Souza Rozendo">
+    <meta name="description" content="jogo da velha, jogue com seus amigos">
+    <meta name="keywords"
+        content="jogo da velha, velha, jogo, game, versão mobile, versão celular,jogue com amigos, multiplayer">
+    <link rel="shortcut icon" href="imagens/matheus_logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/multi.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo"> Jogo da Velha</h1>
+    </header>
+    <main>
+        <div id="dvmenu">
+            <div id="level">
+                <div id="f">Jogador 1: X <br> Jogador 2: O</div>
+            </div>
+            <div id="dvQuemComeca"></div>
+            <button id="btn" onclick="inicia()">Iniciar Jogo</button>
+        </div>
+        <div id="dvjogo">
+            <div id="p1" class="posJogo" onclick="jogar(1)"></div>
+            <div id="p2" class="posJogo" onclick="jogar(2)"></div>
+            <div id="p3" class="posJogo" onclick="jogar(3)"></div>
+            <div id="p4" class="posJogo" onclick="jogar(4)"></div>
+            <div id="p5" class="posJogo" onclick="jogar(5)"></div>
+            <div id="p6" class="posJogo" onclick="jogar(6)"></div>
+            <div id="p7" class="posJogo" onclick="jogar(7)"></div>
+            <div id="p8" class="posJogo" onclick="jogar(8)"></div>
+            <div id="p9" class="posJogo" onclick="jogar(9)"></div>
+        </div>
+    </main>
+
+    <footer>Criado por Matheus Souza Rozendo</footer>
+</body>
+
+</html>

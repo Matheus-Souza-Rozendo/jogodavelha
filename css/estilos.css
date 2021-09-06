@@ -1,0 +1,181 @@
+#dvjogo{
+	width:39vh;
+	height: 39vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-content:flex-start; 
+}
+
+header,#titulo{
+    margin: 0px;
+}
+
+header{
+    width: 100vw;
+}
+.posJogo{
+	width: 12vh;
+	height: 12vh;
+	margin:0px;
+	padding: 0px;
+	cursor:pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10vh;
+}
+
+#p1{
+	border-right: 0.75vh solid black;
+	border-bottom: 0.75vh solid black;
+}
+
+#p2{
+	border-right: 0.75vh solid black;
+	border-bottom: 0.75vh solid black;
+	border-left: 0.75vh solid black;
+}
+
+#p3{
+	border-bottom: 0.75vh solid black;
+	border-left: 0.75vh solid black;
+}
+
+#p4{
+	border-top: 0.75vh solid black;
+	border-right: 0.75vh solid black;
+	border-bottom: 0.75vh solid black;
+}
+
+#p5{
+	border: 0.75vh solid black;
+}
+
+#p6{
+	border-top: 0.75vh solid black;
+	border-left: 0.75vh solid black;
+	border-bottom: 0.75vh solid black;
+}
+
+#p7{
+	border-top: 0.75vh solid black;
+	border-right: 0.75vh solid black;
+}
+
+#p8{
+	border-right: 0.75vh solid black;
+	border-top: 0.75vh solid black;
+	border-left: 0.75vh solid black;
+}
+
+#p9{
+	border-left: 0.75vh solid black;
+	border-top: 0.75vh solid black;
+}
+
+#titulo{
+	font-size: 14vh;
+	color:#FFF;
+	background-color: rgb(250,20,20);
+	width: 100%;
+	padding: 1vh;
+	text-align: center;
+	font-family: 'Spartan', sans-serif;
+}
+
+main{
+	padding: 0px;
+	margin:0px;
+	display:flex;
+	flex-direction: column;  
+	justify-content: space-around;
+	align-items: center; 
+	width: 100vw;
+	min-height: 85vh;
+	overflow-x:hidden;
+}
+
+footer{
+	font-size: 3vh;
+	background-color: black;
+	color:#FFF;
+	width: 100%;
+    height: 10vh;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#dvmenu{
+	display: flex;
+	flex-direction: column;  
+	justify-content: space-between;
+	align-items: center; 
+	font-size:5vh;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button{
+	font-size:5vh;
+	margin-top: 2vh;
+	border-radius:1vh; 
+	display: none;
+}
+
+button:hover{
+	cursor:hand;
+}
+
+#level{
+	display: flex;
+    flex-direction:row;
+    justify-content: center;  
+    margin-bottom: 2vh; 
+}
+
+.nivel{
+	margin-left: 2vw; 
+	border:black solid 3px;
+	border-radius: 3vh;
+	padding: 1vh;
+	background-color: rgba(150,150,150,50%);
+	width:9vw;
+	text-align: center;
+}
+
+.nivel:hover{
+	cursor: hand;
+}
+
+@media screen and (max-width: 1025px) and (orientation:portrait){
+	#titulo{
+	font-size: 12vw;
+	padding-top: 3vw;
+    padding-bottom: 3vh;
+	}
+	#dvmenu{
+		font-size: 7vw;
+	}
+
+	#dvjogo{
+		margin-bottom: 8vh;
+	}
+	.nivel{
+		width: 20vw;
+	}
+	.nivel:hover{
+	cursor: default;
+}
+}
+
+@media screen and (max-width: 1367px) and (orientation:landscape){
+	#dvjogo{
+		margin-bottom: 8vh;
+	}
+}
+#dvQuemComeca{
+	color:blue;
+}
