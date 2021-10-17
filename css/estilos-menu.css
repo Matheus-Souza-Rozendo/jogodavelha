@@ -36,7 +36,7 @@ main,#content{
     margin-bottom: 70px;
 }
 
-#l{
+.l{
 	width: 80%;
 	height: 18%;
 	position:relative;
@@ -96,7 +96,7 @@ footer{
 		margin-bottom:10vh;
 	}
 
-	#l{
+	.l{
 		font-size: 7vw;
 	}
 
@@ -108,7 +108,7 @@ footer{
 		left: 0px;
 		bottom: 0px;
 	}
-	#l{
+	.l{
 		font-size: 4.5vh;
 	}
 }
